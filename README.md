@@ -1,6 +1,6 @@
 # Loadmapi
 
-VB6 LoadMAPI (`LoadMAPI.exe`) that walks Exchange/MAPI address-book folders via Microsoft CDO 1.21 into a TreeView. Toggles show Global Address List, users, custom recipients, distribution lists, and address-book views; optional DN tags and LDAP path conversion (`ConvertDNToLDAP`). Uses `comctl32.ocx` and `netmgr.RES` icons.
+VB6 LoadMAPI (`LoadMAPI.exe`) that walks Exchange/MAPI address-book folders via Microsoft CDO 1.21 into a TreeView. Toggles show Global Address List, users, custom recipients, distribution lists, and address-book views; optional DN tags and LDAP path conversion. Uses `comctl32.ocx` and `netmgr.RES` icons.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -23,7 +23,7 @@ Open the `.vbp` in Visual Basic 6.0 IDE:
 - Microsoft CDO 1.21 Library (`cdo.dll`)
 - Registered OCX/DLL dependencies referenced by the `.vbp` (may need to be installed separately):
   - `comctl32.ocx`
-- Built resource `netmgr.RES` (from `Netmgr.rc`)
+- Built resource `netmgr.RES`
 
 ## Attribution and provenance
 
